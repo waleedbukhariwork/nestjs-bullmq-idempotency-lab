@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": false,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "target": "ES2023",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "ignoreDeprecations": "6.0",
+    "incremental": false,
+    "skipLibCheck": true,
+    "strict": true,
+    "noImplicitOverride": true,
+    "noUncheckedIndexedAccess": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmitOnError": true,
+    "paths": {
+      "@lab/config": ["libs/config/src"],
+      "@lab/contracts": ["libs/contracts/src"],
+      "@lab/credits": ["libs/credits/src"],
+      "@lab/database": ["libs/database/src"],
+      "@lab/observability": ["libs/observability/src"],
+      "@lab/queue": ["libs/queue/src"]
+    }
+  },
+  "include": ["apps/**/*.ts", "libs/**/*.ts", "tools/**/*.ts", "test/**/*.ts"],
+  "exclude": ["node_modules", "dist"]
+}
