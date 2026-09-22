@@ -18,9 +18,11 @@ export default tseslint.config(
   ...tseslint.configs.recommendedTypeChecked,
   {
     languageOptions: {
-      globals: { ...globals.node, ...globals.jest },
+      globals: globals.node,
       parserOptions: {
-        projectService: true,
+        projectService: {
+          allowDefaultProject: ["*.config.mts"],
+        },
         tsconfigRootDir: import.meta.dirname,
       },
     },

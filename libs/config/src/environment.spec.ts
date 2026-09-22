@@ -1,5 +1,5 @@
 import { validateEnvironment } from "./environment";
-import { describe, expect, it } from "@jest/globals";
+import { describe, expect, it } from "vitest";
 
 describe("environment validation", () => {
   it("parses typed values and safe defaults", () => {

@@ -3,14 +3,7 @@ import { randomUUID } from "node:crypto";
 import type { INestApplicationContext } from "@nestjs/common";
 import { ConflictException } from "@nestjs/common";
 import { Test } from "@nestjs/testing";
-import {
-  afterAll,
-  beforeAll,
-  beforeEach,
-  describe,
-  expect,
-  it,
-} from "@jest/globals";
+import { afterAll, beforeAll, beforeEach, describe, expect, it } from "vitest";
 import { CreditCommandService } from "@lab/credits";
 import { DatabaseService } from "@lab/database";
 import { AppModule } from "../../apps/api/src/app.module";

@@ -1,5 +1,5 @@
 import { creditJobId, creditJobSchema } from "./credit-job";
-import { describe, expect, it } from "@jest/globals";
+import { describe, expect, it } from "vitest";
 
 describe("credit job contract", () => {
   it("builds one stable BullMQ-safe ID for a business operation", () => {
