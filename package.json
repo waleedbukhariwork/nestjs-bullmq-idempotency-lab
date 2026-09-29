@@ -60,7 +60,7 @@
     "class-validator": "0.15.1",
     "helmet": "8.3.0",
     "ioredis": "6.0.0",
-    "nestjs-pino": "5.2.0",
+    "nestjs-pino": "5.2.1",
     "pg": "8.23.0",
     "pino": "10.3.1",
     "@prometheus-io/client": "0.16.1",
