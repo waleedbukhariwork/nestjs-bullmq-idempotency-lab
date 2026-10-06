@@ -61,7 +61,7 @@
     "helmet": "8.3.0",
     "ioredis": "6.0.0",
     "nestjs-pino": "5.2.0",
-    "pg": "8.23.0",
+    "pg": "8.23.1",
     "pino": "10.3.1",
     "@prometheus-io/client": "0.16.1",
     "reflect-metadata": "0.2.2",
